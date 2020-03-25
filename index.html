@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul id="nav_bar">
+                    <li class="nav_link" id="gmail"><a href="http://gmail.com">Gmail</a></li>
+                    <li class="nav_link"><a href="#">Image</a></li>
+                    <li class="nav_link" id="signin"><a href="http://google.com">SignIn</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="box">
+            <h1 class="google">
+                <span>G</span>
+                <span>o</span>
+                <span>o</span>
+                <span>g</span>
+                <span>l</span>
+                <span>e</span>
+            </h1>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+        <div class="form">
+            <form id="form_search" action="get" onsubmit="myFunction()">
+                <input type="text"  id="searchBar" placeholder="" value="Search..." autocomplete="off" onmousedown="active()" onblur="inactive()">
+                <button type="submit"  id="google_search_button">Go</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
